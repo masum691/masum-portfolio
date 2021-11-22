@@ -1,0 +1,12 @@
+.font-awesome .facebook, .linkedin, .twitter{
+    margin-left: 10px;
+}
+.font-awesome .facebook, .github, .linkedin, .twitter{
+    color: #8C14FC;
+    font-size: 28px;
+    transition: .3s;
+}
+.font-awesome .facebook:hover, .github:hover, .linkedin:hover, .twitter:hover{
+    color:#080E2C;
+    cursor: pointer;
+}

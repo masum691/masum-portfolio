@@ -1,5 +1,6 @@
 import React from 'react';
 import programmer from '../../../images/programmer.png'
+import './Banner.css'
 
 const Banner = () => {
     return (
@@ -9,7 +10,7 @@ const Banner = () => {
                     <h3>Hi, I'm Masum</h3>
                     <h1>I'm a Web developer</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-                    <div>
+                    <div className="font-awesome">
                         <i class="fab fa-github github"></i>
                         <i class="fab fa-facebook facebook"></i>
                         <i class="fab fa-twitter twitter"></i>
