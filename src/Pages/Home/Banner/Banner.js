@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div>
+        <div className="banner-container">
             <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto d-lg-flex align-items-center">
                 <div class="col">
                     <h3>Hi, I'm Masum</h3>

@@ -1,0 +1,27 @@
+.contact-container{
+    background-color: #F9F9FF;
+}
+.name-input[type=text]:focus {
+    outline-color: red;
+  }
+  .font-awesome .fbook, .linkd, .twit{
+    margin-left: 10px;
+}
+.fonts .git, .fbook, .linkd, .twit{
+    color:#8C14FC;
+    font-size: 24px;
+    transition: .3s;
+}
+.fonts .git:hover, .fbook:hover, .linkd:hover, .twit:hover{
+    color: #080E2C;
+    cursor: pointer;
+}
+.icon{
+    color: #8C14FC;
+}
+.submit-btn{
+    background-color: #8C14FC;
+    color: white;
+    font-weight: bold;
+    padding: 10px 42px;
+}
