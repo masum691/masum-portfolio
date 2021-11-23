@@ -23,8 +23,8 @@ const Contact = () => {
                 <div>
                     <form class="row g-3 ps-lg-5 contact-form">
                         <div class="col-md-6">
-                            <label htmlFor="name" class="form-label">Name</label>
-                            <input type="text" class="form-control shadow border-0 p-3 name-input" id="inputEmail4" placeholder="Your name" />
+                            <label htmlFor="name" class="form-label">Name *</label>
+                            <input type="text" class="form-control shadow border-0 p-3 name-input" id="inputEmail4" placeholder="Your name" required/>
                         </div>
                         <div class="col-md-6">
                             <label htmlFor="email" class="form-label">Email *</label>
@@ -35,8 +35,8 @@ const Contact = () => {
                             <input type="email" class="form-control shadow border-0 p-3" placeholder="Subject" />
                         </div>
                         <div class="col-12">
-                            <label htmlFor="subject" class="form-label">Subject</label>
-                            <textarea className="rounded w-100 border-0 shadow" rows="6"></textarea>
+                            <label htmlFor="subject" class="form-label">Message *</label>
+                            <textarea className="rounded w-100 border-0 shadow p-3" rows="6" placeholder="Your message" required></textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class=" btn submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
