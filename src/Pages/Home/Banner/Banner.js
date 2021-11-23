@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = () => {
     const handleResumeBtn = e => {
-        alert('Will add soon')
+        alert('Will be added soon')
     }
     return (
         <div className="banner-container">
@@ -22,7 +22,7 @@ const Banner = () => {
                     <button onClick={handleResumeBtn} className="resume mt-4">Download Resume</button>
                 </div>
                 <div class="col">
-                    <img src={programmer} class="card-img-top" alt="..." />
+                    <img data-aos="zoom-in" data-aos-duration="2000" src={programmer} class="card-img-top" alt="..." />
                 </div>
             </div>
         </div>
