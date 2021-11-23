@@ -22,7 +22,7 @@ const Banner = () => {
                     <button onClick={handleResumeBtn} className="resume mt-4">Download Resume</button>
                 </div>
                 <div class="col">
-                    <img data-aos="zoom-in" data-aos-duration="2000" src={programmer} class="card-img-top" alt="..." />
+                    <img src={programmer} class="card-img-top" alt="..." />
                 </div>
             </div>
         </div>

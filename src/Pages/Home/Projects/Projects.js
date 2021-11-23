@@ -20,7 +20,7 @@ const Projects = () => {
                                 <button className="project-btn">Metarial UI</button><button className="project-btn">React</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
                             </div>
                             <hr />
-                            <div className="mb-2 d-flex justify-content-around">
+                            <div className="mb-3 d-flex justify-content-around">
                                 <button className="source-btn">Source Code</button>
                                 <button className="live-site-btn">Live Site</button>
                             </div>
