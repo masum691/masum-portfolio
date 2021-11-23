@@ -1,11 +1,13 @@
 import React from 'react';
 import './Navbar.css'
+import navimg from '../../images/m-letter.png'
 
 const Navbar = () => {
     return (
-        <div>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light navigation-color shadow">
+        <div className="navbar-bgc">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-bgc shadow">
                 <div class="container-fluid">
+                    <img className="navimage ms-lg-4 me-lg-3" src={navimg} alt="" />
                     <a class="navbar-brand ms-lg-5" href="www.google.com" className="masum">MASUM</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

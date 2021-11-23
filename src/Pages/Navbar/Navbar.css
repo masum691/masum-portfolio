@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Carter+One&family=Rubik+Beastly&display=swap');
 
-.masum{
-    font-family: 'Rye', cursive;
+.nav-link{
+    margin-right: 20px;
+    text-decoration: none;
 }
-.navigation-color{
-    color: #1B1E1F;
+.masum{
+    font-family: 'Black Ops One', cursive;
+    text-decoration: none;
+    font-size: 34px;
+    color: rgb(82, 80, 218);
+}
+.navimage{
+    width: 42px;
+}
+.navbar-bgc{
+    background-color: #1B1E1F;
 }
