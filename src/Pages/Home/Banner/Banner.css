@@ -1,9 +1,11 @@
 
 .banner-container{
-    background-color: #F4F4FB;
+    /* background-color: #F4F4FB; */
+    background-color: #1C1F20;
+    color: #d1cdc7;
 }
 .font-awesome .facebook, .linkedin, .twitter{
-    margin-left: 10px;
+    margin-left: 18px;
 }
 .font-awesome .facebook, .github, .linkedin, .twitter{
     color: #8C14FC;
@@ -11,6 +13,14 @@
     transition: .3s;
 }
 .font-awesome .facebook:hover, .github:hover, .linkedin:hover, .twitter:hover{
-    color:#080E2C;
+    color:#8c07b4;
     cursor: pointer;
+}
+.resume{
+    border: 2px solid #8C14FC;
+    background-color: #8C14FC;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 40px;
+    font-weight: 600;
 }

@@ -1,5 +1,6 @@
 .contact-container{
-    background-color: #F9F9FF;
+    background-color: #1A1C1D;
+    color: white;
 }
 .name-input[type=text]:focus {
     outline-color: red;
@@ -27,4 +28,12 @@
 }
 .skill-icon{
     color: #8C14FC;
+}
+.contact-form input, textarea{
+    background-color: #1e2122;
+    color: white;
+}
+.contact-form input:focus, textarea:focus{
+    background-color: #2c2c2c;
+    color: white;
 }

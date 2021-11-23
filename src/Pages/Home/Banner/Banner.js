@@ -3,6 +3,9 @@ import programmer from '../../../images/programmer.png'
 import './Banner.css'
 
 const Banner = () => {
+    const handleResumeBtn = e => {
+        alert('Will add soon')
+    }
     return (
         <div className="banner-container">
             <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto d-lg-flex align-items-center">
@@ -16,6 +19,7 @@ const Banner = () => {
                         <i class="fab fa-twitter twitter"></i>
                         <i class="fab fa-linkedin linkedin"></i>
                     </div>
+                    <button onClick={handleResumeBtn} className="resume mt-4">Download Resume</button>
                 </div>
                 <div class="col">
                     <img src={programmer} class="card-img-top" alt="..." />
