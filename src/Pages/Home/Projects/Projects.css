@@ -15,16 +15,42 @@
     background-color: rgba(128, 0, 128, 0.356);
 }
 .source-btn{
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: white;
     color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 4px 8px;
+    transition: .5s;
+}
+.source-btn:hover{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
 }
 .live-site-btn{
-    border: 1px solid yellow;
+    border: 2px solid yellow;
     background-color: yellow;
     color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 4px 8px;
+    transition: .5s;
+}
+.live-site-btn:hover{
+    border: 2px solid yellow;
+    background-color: rgba(255, 255, 0, 0);
+    color: yellow;
+}
+.view-all-btn{
+    border: 3px dotted purple;
+    background-color: purple;
+    padding: 6px 32px;
+    font-weight: bold;
+    color: white;
+    transition: .5s;
+}
+.view-all-btn:hover{
+    border: 3px solid purple;
+    background-color: rgba(165, 15, 179, 0.205);
+    border-radius: 40px;
+    color: rgb(247, 235, 235);
 }
