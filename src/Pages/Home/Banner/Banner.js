@@ -14,10 +14,11 @@ const Banner = () => {
                     <h1>I'm a Web developer</h1>
                     <p>Creating exceptional digital experiences is my specialization as a web developer.</p>
                     <div className="font-awesome">
-                        <i class="fab fa-github github"></i>
-                        <i class="fab fa-facebook facebook"></i>
+                    
+                        <a href="https://github.com/masum691/" target="_blank" rel="noreferrer"><i class="fab fa-github github"></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook facebook"></i></a>
                         <i class="fab fa-twitter twitter"></i>
-                        <i class="fab fa-linkedin linkedin"></i>
+                        <a href="https://www.linkedin.com/in/md-masum-mia-579ab320a/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin linkedin"></i></a>
                     </div>
                     <button onClick={handleResumeBtn} className="resume mt-4">Download Resume</button>
                 </div>

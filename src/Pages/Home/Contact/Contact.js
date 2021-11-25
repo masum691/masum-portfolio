@@ -5,21 +5,25 @@ const Contact = () => {
     const handleSubmit = () => {
         alert('Dynamic form is not ready yet. Please wait or email me.')
     }
+    // <a href="https://github.com/masum691/" target="_blank" rel="noreferrer"><i class="fab fa-github github"></i></a>
+    //                     <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook facebook"></i></a>
+    //                     <i class="fab fa-twitter twitter"></i>
+    //                     <a href="https://www.linkedin.com/in/md-masum-mia-579ab320a/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin linkedin"></i></a>
     return (
         <div id="contact">
             <div className="contact-container py-5">
             <div className="d-lg-flex container mx-auto ">
                 <div className="pe-lg-5">
                     <h2>Quick Contact</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Don't Like Form? call me - 01996834815 </p>
                     <h5>Email</h5>
                     <p><i class="fas fa-envelope-open fs-5 icon"></i> masumhu691@gmail.com</p>
                     <h5>Social Media</h5>
                     <div className="fonts">
-                        <i class="fab fa-github git"></i>
-                        <i class="fab fa-facebook fbook ms-2"></i>
+                        <a href="https://github.com/masum691/" target="_blank" rel="noreferrer"><i class="fab fa-github git"></i></a>
+                        <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook fbook ms-2"></i></a>
                         <i class="fab fa-twitter twit"></i>
-                        <i class="fab fa-linkedin linkd"></i>
+                        <a href="https://www.linkedin.com/in/md-masum-mia-579ab320a/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin linkd"></i></a>
                     </div>
                     <h5 className="mt-3">Location</h5>
                     <p><i class="fas fa-map-marker-alt fs-5 icon"></i> Mymensingh, Bangladesh</p>
@@ -55,23 +59,3 @@ const Contact = () => {
 
 export default Contact;
 
-
-
-// import React from 'react';
-
-// const Contact = () => {
-//     return (
-//         <div>
-//             <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto d-lg-flex align-items-center">
-//                 <div class="col">
-
-//                 </div>
-//                 <div class="col">
-
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Contact;
