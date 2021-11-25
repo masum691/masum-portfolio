@@ -3,7 +3,8 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div className="contact-container py-5">
+        <div id="contact">
+            <div className="contact-container py-5">
             <div className="d-lg-flex container mx-auto ">
                 <div className="pe-lg-5">
                     <h2>Quick Contact</h2>
@@ -44,6 +45,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

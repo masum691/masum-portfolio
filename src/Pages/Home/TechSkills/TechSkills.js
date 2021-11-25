@@ -3,7 +3,7 @@ import './TechSkills.css'
 
 const TechSkills = () => {
     return (
-        <div className="tech-color background-tech">
+        <div id="skills" className="tech-color background-tech">
             <div className="my-5">
                 <h1 className="container mb-5 text-center text-light">Skills And Education</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto">

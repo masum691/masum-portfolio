@@ -9,7 +9,7 @@ const Projects = () => {
         alert('More projects will be added soon')
     }
     return (
-        <div>
+        <div id="projects">
             <div className="tech-color background-tech">
                 <div className="my-5">
                     <h1 className="container mb-5 text-light text-center">Projects_</h1>
