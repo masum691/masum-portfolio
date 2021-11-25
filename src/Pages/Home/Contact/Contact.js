@@ -2,6 +2,9 @@ import React from 'react';
 import './Contact.css'
 
 const Contact = () => {
+    const handleSubmit = () => {
+        alert('Dynamic form is not ready yet. Please wait or email me.')
+    }
     return (
         <div id="contact">
             <div className="contact-container py-5">
@@ -40,7 +43,7 @@ const Contact = () => {
                             <textarea className="rounded w-100 border-0 shadow p-3" rows="6" placeholder="Your message" required></textarea>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class=" btn submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
+                            <button onClick={handleSubmit} type="submit" class=" btn submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
                         </div>
                     </form>
                 </div>

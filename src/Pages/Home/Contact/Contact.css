@@ -14,7 +14,7 @@
     transition: .3s;
 }
 .fonts .git:hover, .fbook:hover, .linkd:hover, .twit:hover{
-    color: #080E2C;
+    color: #5222d6;
     cursor: pointer;
 }
 .icon{
@@ -28,6 +28,9 @@
 }
 .skill-icon{
     color: #8C14FC;
+}
+.skill-icon:hover{
+    color: rgb(98, 0, 255);
 }
 .contact-form input, textarea{
     background-color: #1e2122;

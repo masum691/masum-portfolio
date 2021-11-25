@@ -11,9 +11,8 @@ const About = () => {
                 </div>
                 <div class="col">
                     <div className="ps-lg-5">
-                        <h4>I'm Masum</h4>
-                        <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, modi perferendis id a reiciendis dolorem earum laboriosam nulla.</p>
+                        <h5>I'm Masum.</h5>
+                        <p>I am a professional Web Developer. My work is very important to me, and I am dedicated to it. I'm passionate about learning more, fine-tuning my skill sets, and learning new technologies.</p>
                         <hr />
                         <h4>PERSONAL INFO</h4>
                     </div>
