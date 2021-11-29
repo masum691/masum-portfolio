@@ -24,7 +24,7 @@ const Services = () => {
                         <div class="card h-100 px-3 py-3 pt-3 border-0 shadow-lg third-card text-light">
                         <i class="fas fa-code fs-1 text-center mb-3"></i>
                             <h5 className="text-primary text-center text-warning">MERN Stack <br /> Development</h5>
-                            <p className="text-center">I will create any MERN application using mongodb, express js, react js and node js. I will develop a stunning and professional-looking MERN website according to your expectation.</p>
+                            <p className="text-center">I will create simple MERN application using mongodb, express js, react js and node js. I will develop a stunning and professional-looking MERN website according to your expectation.</p>
                         </div>
                     </div>
                 </div>

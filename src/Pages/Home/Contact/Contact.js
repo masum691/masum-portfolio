@@ -2,9 +2,6 @@ import React from 'react';
 import './Contact.css'
 
 const Contact = () => {
-    const handleSubmit = () => {
-        alert('Dynamic form is not ready yet. Please wait or email me.')
-    }
     // <a href="https://github.com/masum691/" target="_blank" rel="noreferrer"><i class="fab fa-github github"></i></a>
     //                     <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook facebook"></i></a>
     //                     <i class="fab fa-twitter twitter"></i>
@@ -47,7 +44,7 @@ const Contact = () => {
                             <textarea className="rounded w-100 border-0 shadow p-3" rows="6" placeholder="Your message" required></textarea>
                         </div>
                         <div class="col-12">
-                            <button onClick={handleSubmit} type="submit" class=" btn submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
+                            <input type="submit" class="btn submit-btn" value="Submit" />
                         </div>
                     </form>
                 </div>
