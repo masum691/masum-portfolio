@@ -30,15 +30,26 @@
 .live-site-btn{
     border: 2px solid yellow;
     background-color: yellow;
-    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 4px 8px;
     transition: .5s;
 }
+.live-site-btn:hover{
+    border: 2px solid yellow;
+    background-color: rgba(255, 255, 0, 0);
+    color: rgb(255, 0, 221);
+}
+.live-site-btn a{
+    text-decoration: none;
+    color: black;
+}
+.live-site-btn:hover a{
+    text-decoration: none;
+    color: yellow;
+}
 .server-btn{
-    border: 2px solid red;
-    background-color: red;
-    color: rgb(255, 255, 255);
+    border: 2px solid rgb(57, 5, 199);
+    background-color: rgb(57, 5, 199);
     font-weight: bold;
     padding: 4px 8px;
     transition: .5s;
@@ -47,8 +58,8 @@
     text-decoration: none;
 }
 .client-btn{
-    border: 2px solid blue;
-    background-color: blue;
+    border: 2px solid rgb(75, 0, 146);
+    background-color: rgb(75, 0, 146);
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 4px 8px;
@@ -57,10 +68,21 @@
 .client-btn a{
     text-decoration: none;
 }
-.live-site-btn:hover{
-    border: 2px solid yellow;
-    background-color: rgba(255, 255, 0, 0);
-    color: yellow;
+.ancor-source{
+    text-decoration: none;
+    color: black;
+}
+.ancor-source:hover{
+    color: white;
+}
+
+.close-btn{
+    border: 2px solid red;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 4px 8px;
+    transition: .5s;
 }
 .view-all-btn{
     border: 3px dotted purple;

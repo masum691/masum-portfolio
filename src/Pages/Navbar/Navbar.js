@@ -54,6 +54,11 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li class="nav-item">
+                                <a href="/#blog" class="nav-link active text-light" aria-current="page">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="/#contact" class="nav-link active text-light" aria-current="page">
                                     Contact
                                 </a>
