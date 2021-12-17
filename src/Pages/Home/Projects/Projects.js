@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className="my-5">
                     <h1 className="container mb-5 text-light text-center">Projects_</h1>
                     <h5 className="text-warning text-center">---My Recent Projects 😍---</h5>
-                    <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto align-items-center">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto align-items-center">
 
                         <div class="col">
                             <div class="card h-100 px-3 pt-3 border-0 shadow-lg third-card text-light">
@@ -20,12 +20,13 @@ const Projects = () => {
                                     <img className="img-fluid" src={projectOne} alt="" />
                                 </div>
                                 <h5 className="text-center mt-3">Baby Care Products</h5>
+                                <p>Baby Care website has products for babies. Clicking on the buy now button on the product card takes you to the booking page. If the user is not logged in, he will be taken to the login page first. Users can give feedback and review if they want.</p>
                                 <div>
-                                    <button className="project-btn">Metarial UI</button><button className="project-btn">React</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
+                                    <button className="project-btn">React</button>
+                                    <button className="project-btn">Metarial UI</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
                                 </div>
                                 <hr />
-                                <div className="mb-3 d-flex justify-content-around">
-
+                                <div className="mb-3">
                                     <button type="button" class="source-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         Source Code
                                     </button>
@@ -46,7 +47,7 @@ const Projects = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className="live-site-btn"><a  href="https://baby-care-app-584b5.web.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
+                                    <button className="live-site-btn ms-2"><a href="https://baby-care-app-584b5.web.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
                                     {/* <button className="btn btn-light w-100 fw-bold">Details</button> */}
                                 </div>
                             </div>
@@ -57,11 +58,12 @@ const Projects = () => {
                                     <img className="img-fluid" src={projectTwo} alt="" />
                                 </div>
                                 <h5 className="text-center mt-3">World Travel</h5>
+                                <p>This is a travel website. On the home page, there are some packages cards, plus thress other sections. By clicking on the book now button, the card packages details are displayed in another route and you can add packages in the cart.</p>
                                 <div>
-                                    <button className="project-btn">Metarial UI</button><button className="project-btn">React</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
+                                    <button className="project-btn">Bootstrap</button><button className="project-btn">React</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
                                 </div>
                                 <hr />
-                                <div className="mb-3 d-flex justify-content-around">
+                                <div className="mb-3">
 
                                     <button type="button" class="source-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                         Source Code
@@ -79,14 +81,14 @@ const Projects = () => {
                                                     <button className="server-btn ms-3"><a className="text-light" href="https://github.com/masum691/travel-world-server" target="_blank" rel="noreferrer" >Server Code</a></button>
                                                 </div>
                                                 <div class="modal-footer">
-                                                <button type="button" class="close-btn " data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="close-btn " data-bs-dismiss="modal">Close</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    
-                                    <button className="live-site-btn"><a  href="https://world-travel-inc.web.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
+
+                                    <button className="live-site-btn ms-2"><a href="https://world-travel-inc.web.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
                                     {/* <button className="btn btn-light w-100 fw-bold">Details</button> */}
                                 </div>
                             </div>
@@ -97,13 +99,14 @@ const Projects = () => {
                                     <img className="img-fluid" src={projectThree} alt="" />
                                 </div>
                                 <h5 className="text-center mt-3">Popular Diagnostic</h5>
+                                <p>This is a healthcare-related diagnostic website. On the home page,There are 6 service cards, plus a comfort section. There is a hover effect on the cards. By clicking on the see more button, the card details are displayed in another route.</p>
                                 <div>
-                                    <button className="project-btn">Metarial UI</button><button className="project-btn">React</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
+                                    <button className="project-btn">Bootstrap</button><button className="project-btn">React</button><button className="project-btn">JSON</button><button className="project-btn">Custom CSS</button><button className="project-btn">React Router</button>
                                 </div>
                                 <hr />
-                                <div className="mb-3 d-flex justify-content-around">
+                                <div className="mb-3">
                                     <button className="source-btn"><a href="https://github.com/masum691/popular-diagnostic-ltd" className="ancor-source" target="_blank" rel="noreferrer">Source Code</a></button>
-                                    <button className="live-site-btn"><a  href="https://popular-diagnostic-ltd.netlify.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
+                                    <button className="live-site-btn ms-2"><a href="https://popular-diagnostic-ltd.netlify.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
                                     {/* <button className="btn btn-light w-100 fw-bold">Details</button> */}
                                 </div>
                             </div>
@@ -114,13 +117,14 @@ const Projects = () => {
                                     <img className="img-fluid" src={projectFour} alt="" />
                                 </div>
                                 <h5 className="text-center mt-3">Coursea</h5>
+                                <p>This website is made for teaching languages. There will be a conference with them recently.teaching 10 international languages. Students can purchase course packages if he/she want.Have contact form and others</p>
                                 <div>
-                                    <button className="project-btn">Metarial UI</button><button className="project-btn">React</button><button className="project-btn">Firebase</button><button className="project-btn">NodeJS</button><button className="project-btn">ExpressJS</button><button className="project-btn">MongoDB</button>
+                                    <button className="project-btn">CSS</button><button className="project-btn">Bootstrap</button><button className="project-btn">JSON</button><button className="project-btn">React Js</button><button className="project-btn">React Router</button>
                                 </div>
                                 <hr />
-                                <div className="mb-3 d-flex justify-content-around">
+                                <div className="mb-3">
                                     <button className="source-btn"><a href="https://github.com/masum691/language-course" className="ancor-source" target="_blank" rel="noreferrer">Source Code</a></button>
-                                    <button className="live-site-btn"><a  href="https://language-courses-app-masum691.netlify.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
+                                    <button className="live-site-btn ms-2"><a href="https://language-courses-app-masum691.netlify.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
                                     {/* <button className="btn btn-light w-50 fw-bold">Details</button> */}
                                 </div>
                             </div>
