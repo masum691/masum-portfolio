@@ -13,7 +13,7 @@
     transition: .3s;
 }
 .font-awesome .facebook:hover, .github:hover, .linkedin:hover, .twitter:hover{
-    color:#8c07b4;
+    color:#ED8C19;
     cursor: pointer;
 }
 .resume{
@@ -22,6 +22,14 @@
     padding: 6px 14px;
     border-radius: 40px;
     font-weight: 600;
+    transition: 0.4s;
+}
+.resume:hover{
+    border: 2px solid #ED8C19;
+    background-color: #ED8C19;
+}
+.resume:hover a{
+    color: rgb(255, 255, 255);
 }
 .resume a{
     text-decoration: none;

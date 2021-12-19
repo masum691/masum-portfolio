@@ -2,7 +2,8 @@ import React from 'react';
 import projectOne from '../../../images/project1.png'
 import projectTwo from '../../../images/project2.png'
 import projectThree from '../../../images/project3.png'
-import projectFour from '../../../images/project4.png'
+import projectFour from '../../../images/langcrc.png'
+import projectFive from '../../../images/bank.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -119,12 +120,30 @@ const Projects = () => {
                                 <h5 className="text-center mt-3">Coursea</h5>
                                 <p>This website is made for teaching languages. There will be a conference with them recently.teaching 10 international languages. Students can purchase course packages if he/she want.Have contact form and others</p>
                                 <div>
-                                    <button className="project-btn">CSS</button><button className="project-btn">Bootstrap</button><button className="project-btn">JSON</button><button className="project-btn">React Js</button><button className="project-btn">React Router</button>
+                                    <button className="project-btn">CSS</button><button className="project-btn">Bootstrap</button><button className="project-btn">JSON</button><button className="project-btn">React Js</button><button className="project-btn">React Router</button><button className="project-btn">Netlify</button>
                                 </div>
                                 <hr />
                                 <div className="mb-3">
                                     <button className="source-btn"><a href="https://github.com/masum691/language-course" className="ancor-source" target="_blank" rel="noreferrer">Source Code</a></button>
                                     <button className="live-site-btn ms-2"><a href="https://language-courses-app-masum691.netlify.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
+                                    {/* <button className="btn btn-light w-50 fw-bold">Details</button> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 px-3 pt-3 border-0 shadow-lg third-card text-light">
+                                <div className="project-img">
+                                    <img className="img-fluid" src={projectFive} alt="" />
+                                </div>
+                                <h5 className="text-center mt-3">Bank deposit</h5>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat quasi officiis porro dolor expedita ea quidem voluptates architecto commodi sit inventore totam eum dignissimos non, quos veniam. Perferendis,</p>
+                                <div>
+                                    <button className="project-btn">HTML</button><button className="project-btn">Tailwind CSS</button><button className="project-btn">Javascript</button><button className="project-btn">Netlify</button>
+                                </div>
+                                <hr />
+                                <div className="mb-3">
+                                    <button className="source-btn"><a href="https://github.com/masum691/bank-deposit-withdraw" className="ancor-source" target="_blank" rel="noreferrer">Source Code</a></button>
+                                    <button className="live-site-btn ms-2"><a href="https://bank-deposit-withdraw-masum691.netlify.app/" target="_blank" rel="noreferrer" >Live Site</a></button>
                                     {/* <button className="btn btn-light w-50 fw-bold">Details</button> */}
                                 </div>
                             </div>
