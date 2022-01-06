@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
     return (
         <div id="about" className="about-color">
-            <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto d-lg-flex align-items-center justify-content-around">
+            <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto d-lg-flex align-items-center justify-content-around mt-5">
                 <div class="col">
                     <img data-aos="zoom-in" data-aos-duration="2000" src={masum} class="card-img-top masum-image p-lg-5" alt="..." />
                 </div>

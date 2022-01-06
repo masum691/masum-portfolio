@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
     return (
         <div className="navbar-bgc">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-bgc shadow">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-bgc container">
                 <div class="container-fluid">
                     <a class="navbar-brand ms-lg-5" href='#' className="masum">MASUM</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,34 +30,34 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         </ul> */}
-                        <ul class="navbar-nav ms-auto me-5">
+                        <ul class="navbar-nav ms-auto me-5 portfolio-nav">
                             <li class="nav-item">
-                                <a href="/#home" class="nav-link active text-light" aria-current="page">
+                                <a href="/#home" class="nav-link active text-dark" aria-current="page">
                                     Home
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#about" class="nav-link active text-light" aria-current="page">
+                                <a href="/#about" class="nav-link active text-dark" aria-current="page">
                                     About
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#skills" class="nav-link active text-light" aria-current="page">
+                                <a href="/#skills" class="nav-link active text-dark" aria-current="page">
                                     Tech Skills
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#projects" class="nav-link active text-light" aria-current="page">
+                                <a href="/#projects" class="nav-link active text-dark" aria-current="page">
                                     Projects
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#blog" class="nav-link active text-light" aria-current="page">
+                                <a href="/#blog" class="nav-link active text-dark" aria-current="page">
                                     Blog
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/#contact" class="nav-link active text-light" aria-current="page">
+                                <a href="/#contact" class="nav-link active text-dark" aria-current="page">
                                     Contact
                                 </a>
                             </li>

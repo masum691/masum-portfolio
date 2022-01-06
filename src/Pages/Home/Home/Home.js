@@ -8,10 +8,11 @@ import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
 import TechSkills from '../TechSkills/TechSkills';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div id="home">
+        <div className='home-page container' id="home">
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>

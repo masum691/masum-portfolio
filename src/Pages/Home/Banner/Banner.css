@@ -1,8 +1,8 @@
 
 .banner-container{
     /* background-color: #F4F4FB; */
-    background-color: #1C1F20;
-    color: #d1cdc7;
+    background-color: #F0F0F6;
+    color: black;
 }
 .font-awesome .facebook, .linkedin, .twitter{
     margin-left: 18px;
@@ -34,4 +34,9 @@
 .resume a{
     text-decoration: none;
     color: white;
+}
+.with-nav{
+    margin-top: 43px;
+    margin-bottom: 33px;
+    background-color: #fff;
 }
