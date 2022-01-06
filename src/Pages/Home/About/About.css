@@ -1,6 +1,8 @@
-/* .masum-image{
+.masum-image{
     width: 300px;
-} */
+    border-radius: 30px;
+    margin: 44px;
+}
 .about-color{
     background-color: #F0F0F6;
     color: black;

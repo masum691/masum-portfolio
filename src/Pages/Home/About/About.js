@@ -1,5 +1,5 @@
 import React from 'react';
-import masum from '../../../images/masum.png'
+import masum from '../../../images/programmer.png'
 import './About.css'
 
 const About = () => {
@@ -7,12 +7,13 @@ const About = () => {
         <div id="about" className="about-color">
             <div class="row row-cols-1 row-cols-md-2 g-4 container mx-auto d-lg-flex align-items-center justify-content-around mt-5">
                 <div class="col">
-                    <img data-aos="zoom-in" data-aos-duration="2000" src={masum} class="card-img-top masum-image p-lg-5" alt="..." />
+                    <img data-aos="zoom-in" data-aos-duration="2000" src={masum} class="card-img-top masum-image" alt="..." />
                 </div>
                 <div class="col">
                     <div className="ps-lg-5">
                         <h5>I'm Masum.</h5>
-                        <p>I am a professional Web Developer. My work is very important to me, and I am dedicated to it. I'm passionate about learning more, fine-tuning my skill sets, and learning new technologies.</p>
+                        <p>I am a Web Developer
+                            with Industry Experience building Websites and Web Applications. I specialize in JavaScript and have professional experience working with React, Bootstrap, CSS, HTML, Tailwind, React Bootstrap, Firebase and familiar with Node JS, Express JS, MongoDB, Typescript, Metarial UI and Next JS.</p>
                         <hr />
                         <h4>PERSONAL INFO</h4>
                     </div>

@@ -4,12 +4,29 @@
     background-color: #F0F0F6;
     color: black;
 }
+.banner-container h5, h6, span, p{
+    color: #44566c;
+}
+.banner-container span, p{
+    font-weight: 600;
+}
+.banner-container button{
+    border: 0;
+    color: #44566c;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px 20px;
+    margin-bottom: 12px;
+    border-radius: 40px;
+}
 .font-awesome .facebook, .linkedin, .twitter{
     margin-left: 18px;
 }
 .font-awesome .facebook, .github, .linkedin, .twitter{
-    color: #8C14FC;
-    font-size: 28px;
+    /* color: #8C14FC; */
+    color: #44566c;
+    /* background-color: red; */
+    font-size: 18px;
     transition: .3s;
 }
 .font-awesome .facebook:hover, .github:hover, .linkedin:hover, .twitter:hover{
@@ -18,25 +35,32 @@
 }
 .resume{
     border: 2px solid #8C14FC;
-    background-color: #8C14FC;
-    padding: 6px 14px;
-    border-radius: 40px;
+    background-color: #445dfd00;
+    color: #445EFD;
+    
     font-weight: 600;
     transition: 0.4s;
 }
-.resume:hover{
+/* .resume:hover{
     border: 2px solid #ED8C19;
     background-color: #ED8C19;
-}
+} */
 .resume:hover a{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 .resume a{
     text-decoration: none;
-    color: white;
+    color: #445EFD;
+    border: 2px solid #445EFD;
+    background-color: #445dfd;
+    padding: 6px 14px;
+    color: #ffffff;
 }
 .with-nav{
     margin-top: 43px;
     margin-bottom: 33px;
     background-color: #fff;
+}
+.programmer-banner-img{
+    width: 150px;
 }
