@@ -1,51 +1,83 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './TechSkills.css'
+import html from '../../../images/skill img/html-1.svg'
+import css from '../../../images/skill img/css-3.svg'
+import js from '../../../images/skill img/logo-javascript.svg'
+import bs from '../../../images/skill img/bootstrap-5-1.svg'
+import ex from '../../../images/skill img/express-109.svg'
+import fire from '../../../images/skill img/firebase-1.svg'
+import git from '../../../images/skill img/github-icon-1.svg'
+import hero from '../../../images/skill img/heroku-4.svg'
+import mate from '../../../images/skill img/material-ui-1.svg'
+import mongo from '../../../images/skill img/mongodb-icon-1.svg'
+import next from '../../../images/skill img/nextjs-2.svg'
+import node from '../../../images/skill img/nodejs-icon.svg'
+import react from '../../../images/skill img/react-2.svg'
+import tail from '../../../images/skill img/tailwind-css-2.svg'
 
 const TechSkills = () => {
     return (
-        <div id="skills" className="tech-color background-tech">
-            <div className="my-5">
-                <h1 className="container mb-5 text-center text-light">Skills And Education</h1>
-                <div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto">
-                    <div class="col">
-                        <div class="card h-100  px-3 pt-3 border-0 shadow first-card shadow-lg text-light">
-                            <h5 className="text-primary">Front End</h5>
-                            <h6><i class="fab fa-html5 skill-icon"></i> HTML</h6>
-                            <h6><i class="fab fa-css3-alt skill-icon"></i> CSS</h6>
-                            <h6><i class="fab fa-bootstrap skill-icon"></i> Bootstrap</h6>
-                            <h6><i class="fas fa-code skill-icon"></i> Tailwind CSS</h6>
-                            <h6><i class="fas fa-code skill-icon"></i> Metarial UI </h6>
-                            <h6><i class="fas fa-code skill-icon"></i> Next Js</h6>
-                            <h6><i class="fab fa-react skill-icon"></i> React Js</h6>
-                            <h5 className="text-primary">Programming language</h5>
-                            <h6><i class="fab fa-js skill-icon"></i> Javascript</h6>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100  px-3 py-3 border-0 shadow-lg text-light second-card">
-                            <h5 className="text-primary">Back End</h5>
-                            <h6><i class="fab fa-node-js skill-icon"></i> Node JS</h6>
-                            <h6><i class="fas fa-code skill-icon"></i> Express JS</h6>
-                            <h5 className="text-primary">Database</h5>
-                            <h6><i class="fas fa-database skill-icon"></i> MongoDB</h6>
-                            <h5 className="text-primary">Hosting Platform</h5>
-                            <h6><i class="fab fa-github skill-icon"></i> Github</h6>
-                            <h6><i class="fas fa-server skill-icon"></i> Netlify</h6>
-                            <h6><i class="fas fa-server skill-icon"></i> Firebase</h6>
-                            <h6><i class="fas fa-server skill-icon"></i> Heroku</h6>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 px-3 pt-3 border-0 shadow-lg third-card text-light">
-                            <h5 className="text-primary">Education</h5>
-                            <h6 className="text-warning mt-2">University</h6>
-                            <h6><i class="fas fa-graduation-cap skill-icon"></i> National University of Bangladesh</h6>
-                            <h6 className="text-warning mt-3">College</h6>
-                            <h6><i class="fas fa-university skill-icon"></i> Govt. Shahid Smrity College</h6>
-                            <h6 className="text-warning mt-3">Programming Hero</h6>
-                            <h6><i class="fas fa-code skill-icon"></i> Complete Web Development With Jhankar Mahbub</h6>
-                        </div>
-                    </div>
+        <div className='container-fluid mx-auto tech-skills-container'>
+            <h4>My Skills :</h4>
+            <div className='row'>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={react} alt="" />
+                    <h6 className='mt-1 mb-3'>ReactJS</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={bs} alt="" />
+                    <h6 className='mt-3 mb-3'>Bootstrap</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={html} alt="" />
+                    <h6 className='mt-1 mb-3'>HTML</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={css} alt="" />
+                    <h6 className='mt-1 mb-3'>CSS</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={tail} alt="" />
+                    <h6 className='mt-3 mb-3'>Tailwind</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={js} alt="" />
+                    <h6 className='mt-2 mb-3'>Javascript</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={fire} alt="" />
+                    <h6 className='mt-1 mb-3'>Firebase</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={git} alt="" />
+                    <h6 className='mt-3 mb-3'>Git</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={hero} alt="" />
+                    <h6 className='mt-3 mb-3'>Heroku</h6>
+                </div>
+            </div>
+            <h4>Familiar with : </h4>
+            <div className='row'>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={mate} alt="" />
+                    <h6 className='mt-3 mb-3'>MaterialUI</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={next} alt="" />
+                    <h6 className='mt-3 mb-3'>NextJS</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={node} alt="" />
+                    <h6 className='mt-1 mb-3'>NodeJS</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-50 mt-3' src={ex} alt="" />
+                    <h6 className='mt-3 mb-3'>ExpressJS</h6>
+                </div>
+                <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
+                    <img className='w-25 mt-3' src={mongo} alt="" />
+                    <h6 className='mt-2 mb-3'>MongoDB</h6>
                 </div>
             </div>
         </div>
