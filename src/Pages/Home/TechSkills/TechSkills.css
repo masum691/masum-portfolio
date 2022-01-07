@@ -27,11 +27,12 @@
 .my-sill-svg{
     background-color: #F5F8F9;
 }
-.tech-skills-container h4{
+.before-after-h4{
     position: relative;
     padding-bottom: 12px;
+    color: #44566c;
 }
-.tech-skills-container h4::after{
+.before-after-h4::after{
     content: '';
     position: absolute;
     left: 0;
@@ -42,7 +43,7 @@
     background-color: rgb(82, 80, 218);
     width: 60px;
 }
-.tech-skills-container h4::before{
+.before-after-h4::before{
     content: '';
     position: absolute;
     left: 0;

@@ -18,7 +18,7 @@ import tail from '../../../images/skill img/tailwind-css-2.svg'
 const TechSkills = () => {
     return (
         <div className='container-fluid mx-auto tech-skills-container'>
-            <h4>My Skills :</h4>
+            <h4 className='mt-5 before-after-h4'>My Skills :</h4>
             <div className='row'>
                 <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
                     <img className='w-25 mt-3' src={react} alt="" />
@@ -57,7 +57,7 @@ const TechSkills = () => {
                     <h6 className='mt-3 mb-3'>Heroku</h6>
                 </div>
             </div>
-            <h4>Familiar with : </h4>
+            <h4 className='mt-4 before-after-h4'>Familiar with : </h4>
             <div className='row'>
                 <div className='col-sm-4 col-md-3 col-lg-2 text-center my-sill-svg m-2'>
                     <img className='w-25 mt-3' src={mate} alt="" />
