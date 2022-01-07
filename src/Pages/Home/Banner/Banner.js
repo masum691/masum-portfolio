@@ -27,19 +27,21 @@ const Banner = () => {
                         </div>
 
                         <div className='banner-resume-part py-5'>
-                            <div>
-                                <i class="fas fa-map-marker-alt"></i> <small>Mymensingh, BD</small>
+                            <div className='ms-4'>
+                                <div>
+                                    <i class="fas fa-map-marker-alt"></i> <small>Mymensingh, BD</small>
+                                </div>
+                                <div>
+                                    <i class="far fa-envelope"></i>
+                                    <small> masumhu691@gmail.com</small>
+                                </div>
+                                <div>
+                                    <i class="fas fa-phone"></i>
+                                    <small>+88-01996834815</small>
+                                </div>
                             </div>
                             <div>
-                                <i class="far fa-envelope"></i>
-                                <small> masumhu691@gmail.com</small>
-                            </div>
-                            <div>
-                                <i class="fas fa-phone"></i>
-                                <small>+88-01996834815</small>
-                            </div>
-                            <div>
-                                <button className="resume mt-4"><a href="https://drive.google.com/file/d/16lPpu_jvLJmq3EFJBbqdy8QEB0AbFOkZ/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fas fa-download"></i> Download Resume</a></button>
+                                <button className="resume mt-4 ms-4"><a href="https://drive.google.com/file/d/16lPpu_jvLJmq3EFJBbqdy8QEB0AbFOkZ/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fas fa-download"></i> Download Resume</a></button>
                             </div>
                         </div>
                     </div>

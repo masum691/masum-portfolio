@@ -3,7 +3,7 @@ import projectOne from '../../../images/project1.png'
 import projectTwo from '../../../images/project2.png'
 import projectThree from '../../../images/project3.png'
 import projectFour from '../../../images/langcrc.png'
-import projectFive from '../../../images/bank.png'
+import projectFive from '../../../images/portfolio.png'
 import gaming from '../../../images/gaming.png'
 import './Projects.css'
 
