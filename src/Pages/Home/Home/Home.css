@@ -1,5 +1,18 @@
 .home-page{
     background-color: #FFFFFF;
-    border-radius: 33px;
+    border-radius: 23px;
     margin-top: 44px;
 }
+.left-banner{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+    .left-banner {
+      position: static;
+    }
+  }

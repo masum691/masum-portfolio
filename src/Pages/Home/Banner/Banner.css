@@ -30,7 +30,7 @@
     transition: .3s;
 }
 .font-awesome .facebook:hover, .github:hover, .linkedin:hover, .twitter:hover{
-    color:#ED8C19;
+    color:rgb(82, 80, 218);
     cursor: pointer;
 }
 .resume{
@@ -51,16 +51,22 @@
 .resume a{
     text-decoration: none;
     color: #445EFD;
-    border: 2px solid #445EFD;
-    background-color: #445dfd;
-    padding: 6px 14px;
+    border: 2px solid rgb(82, 80, 218);
+    background-color: rgb(82, 80, 218);
+    padding: 8px 16px;
     color: #ffffff;
 }
 .with-nav{
     margin-top: 43px;
     margin-bottom: 33px;
     background-color: #fff;
+    border-radius:23px;
 }
 .programmer-banner-img{
-    width: 150px;
+    width: 170px;
+    /* border: 1px solid rgb(255, 0, 21); */
+    /* border: 2px solid rgb(82, 80, 218); */
+    border-radius: 23px;
+    margin-top: 8px;
+    box-shadow: 4px 4px 30px rgb(244, 245, 245);
 }
