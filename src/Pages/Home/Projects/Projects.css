@@ -95,3 +95,51 @@
 .my-project-card{
     background-color: #F5F8F9;
 }
+.project-container small{
+    font-weight: 600;
+    color: #44566c;
+    font-size: 15px;
+}
+.technology a{
+    text-decoration: underline;
+    font-weight: 600;
+    margin-right: 16px;
+    color: #44566c;
+    font-size: 13px;
+}
+.technology a:hover{
+    color: rgb(129, 54, 129);
+}
+.with-client-sercer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 4px;
+    border-radius: 2px;
+}
+.client-code, .server-code{
+    background-color: rgb(82, 80, 218);
+    padding: 4px 12px;
+}
+.with-client-sercer .live-site{
+    background-color: #44566c;
+    padding: 4px 12px;
+}
+.client-source, .app-live-site{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 4px;
+    border-radius: 2px;
+}
+.client-source{
+    background-color: rgb(82, 80, 218);
+    padding: 4px 12px;
+}
+.app-live-site{
+    background-color: #44566c;
+    padding: 4px 12px;
+}
+.client-source:hover, .app-live-site:hover{
+    color: #FFFFFF;
+}
