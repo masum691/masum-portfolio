@@ -13,7 +13,7 @@ const Projects = () => {
             <div className="py-1">
                 <div className="my-5">
                     <h4 className="container mx-auto mb-4">My Recent Projects</h4>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 container mx-auto align-items-center">
+                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 container mx-auto align-items-center">
                         <div class="col">
                             <div class="card h-100 px-3 pt-3 pb-3 border-0 my-project-card">
                                 <div className="project-img">

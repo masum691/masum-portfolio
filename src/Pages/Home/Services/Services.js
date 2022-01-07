@@ -8,10 +8,10 @@ const Services = () => {
                 <div>
                 <h4 className="container-fluid mx-auto mb-4">What I'm Doing</h4>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 container mx-auto">
+                <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 container mx-auto">
                     <div class="col">
                         <div class="card h-100  px-3 py-3 pt-3 border-0 first-card">
-                            <div className='d-flex align-items-center my-service-card'>
+                            <div className='d-lg-flex align-items-center my-service-card'>
                                 <div className='p-4'>
                                     <i class="my-service-icon fs-1 fas fa-laptop-code"></i>
                                 </div>
@@ -24,7 +24,7 @@ const Services = () => {
                     </div>
                     <div class="col">
                         <div class="card h-100  px-3 py-3 pt-3 border-0 first-card">
-                            <div className='d-flex align-items-center my-service-card'>
+                            <div className='d-lg-flex align-items-center my-service-card'>
                                 <div className='p-4'>
                                     <i class="my-service-icon fs-1 fas fa-desktop"></i>
                                 </div>
@@ -37,7 +37,7 @@ const Services = () => {
                     </div>
                     <div class="col">
                         <div class="card h-100  px-3 py-3 pt-3 border-0 first-card">
-                            <div className='d-flex align-items-center my-service-card'>
+                            <div className='d-lg-flex align-items-center my-service-card'>
                                 <div className='p-4'>
                                     <i class="my-service-icon fs-1 fab fa-react"></i>
                                 </div>
@@ -50,7 +50,7 @@ const Services = () => {
                     </div>
                     <div class="col">
                         <div class="card h-100  px-3 py-3 pt-3 border-0 first-card">
-                            <div className='d-flex align-items-center my-service-card'>
+                            <div className='d-lg-flex align-items-center my-service-card'>
                                 <div className='p-4'>
                                     <i class="my-service-icon fs-1 fas fa-code"></i>
                                 </div>
