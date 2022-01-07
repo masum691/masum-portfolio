@@ -9,10 +9,9 @@ import './Projects.css'
 const Projects = () => {
     return (
         <div id="projects">
-            <div className="tech-color background-tech">
+            <div className="py-1">
                 <div className="my-5">
-                    <h1 className="container mb-5 text-light text-center">Projects_</h1>
-                    <h5 className="">My Recent Projects</h5>
+                    <h4 className="container mx-auto mb-4">My Recent Projects</h4>
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 container mx-auto align-items-center">
                         <div class="col">
                             <div class="card h-100 px-3 pt-3 border-0 my-project-card">

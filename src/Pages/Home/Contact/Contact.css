@@ -1,6 +1,6 @@
 .contact-container{
-    background-color: #1A1C1D;
-    color: white;
+    background-color: #F5F8F9;
+    color: black;
 }
 .name-input[type=text]:focus {
     outline-color: red;
@@ -9,8 +9,8 @@
     margin-left: 10px;
 }
 .fonts .git, .fbook, .linkd, .twit{
-    color:#8C14FC;
-    font-size: 24px;
+    color:#44566c;
+    font-size: 20px;
     transition: .3s;
 }
 .fonts .git:hover, .fbook:hover, .linkd:hover, .twit:hover{
@@ -18,13 +18,14 @@
     cursor: pointer;
 }
 .icon{
-    color: #8C14FC;
+    color: #44566c;
+    font-size: 20px;
 }
 .submit-btn{
     background-color: #8C14FC;
-    color: white;
+    color: #44566c;
     font-weight: bold;
-    padding: 10px 42px;
+    padding: 6px 42px;
 }
 .skill-icon{
     color: #8C14FC;
@@ -33,10 +34,20 @@
     color: rgb(98, 0, 255);
 }
 .contact-form input, textarea{
-    background-color: #1e2122;
+    background-color: #FFFFFF;
     color: white;
 }
 .contact-form input:focus, textarea:focus{
-    background-color: #2c2c2c;
-    color: white;
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+}
+.contact-container h4, h5{
+    color: #44566c;
+}
+.contact-container label{
+    font-weight: 600;
+    color: #44566c;
+}
+.contact-container .submit-btn{
+    color: #44566c;
 }
