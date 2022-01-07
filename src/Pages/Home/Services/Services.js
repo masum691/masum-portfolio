@@ -17,7 +17,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h5 className="">Responsive Website</h5>
-                                    <p className="">I will create any responsive website and develop website. I will develop a stunning and professional-looking responsive website according to your expectation.</p>
+                                    <p className="">I create responsive Website for all devices. it's very importent for the convenience of the users. </p>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h5 className="">Front End App</h5>
-                                    <p className="">I will create any responsive website and develop website. I will develop a stunning and professional-looking responsive website according to your expectation.</p>
+                                    <p className="">I have professional knowledge in front-end dev. I use HTML, CSS, Bootstrap, JS, React etc. for front end</p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h5 className="">React App</h5>
-                                    <p className="">I will create any responsive website and develop website. I will develop a stunning and professional-looking responsive website according to your expectation.</p>
+                                    <p className="">ReactJS is my favourit js library. I enjoy creating the user interface with React. I always use ReactJS for front end.</p>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Services = () => {
                                 </div>
                                 <div className='text-left'>
                                     <h5 className="">MERN App</h5>
-                                    <p className="">I will create any responsive website and develop website. I will develop a stunning and professional-looking responsive website according to your expectation.</p>
+                                    <p className="">I can create simple MERN App.I can Fetch data from Database and CRUD Operation.</p>
                                 </div>
                             </div>
                         </div>

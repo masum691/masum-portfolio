@@ -70,10 +70,8 @@
 }
 .programmer-banner-img{
     width: 160px;
-    /* border: 1px solid rgb(255, 0, 21); */
-    /* border: 2px solid rgb(82, 80, 218); */
     border-radius: 23px;
-    margin-top: 8px;
+    margin-top: 18px;
     box-shadow: 4px 4px 30px rgb(244, 245, 245);
 }
 .banner-resume-part{
