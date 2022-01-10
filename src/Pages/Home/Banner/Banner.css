@@ -27,9 +27,7 @@
     margin-left: 14px;
 }
 .font-awesome .facebook, .github, .linkedin{
-    /* color: #8C14FC; */
     color: #44566c;
-    /* background-color: red; */
     font-size: 18px;
     transition: .3s;
 }
@@ -45,10 +43,6 @@
     font-weight: 600;
     transition: 0.4s;
 }
-/* .resume:hover{
-    border: 2px solid #ED8C19;
-    background-color: #ED8C19;
-} */
 .resume:hover a{
     color: #ffffff;
 }
@@ -70,7 +64,7 @@
 }
 .programmer-banner-img{
     width: 160px;
-    border-radius: 23px;
+    border-radius: 13px;
     margin-top: 18px;
     box-shadow: 4px 4px 30px rgb(244, 245, 245);
 }
@@ -81,4 +75,14 @@
     color: #44566C;
     font-weight: 600;
     font-size: 16px;
+}
+.my-p-img{
+    overflow: hidden;
+}
+.my-p-img img{
+    transition: all 1.5s ease;
+}
+.my-p-img:hover img{
+    transform: scale(1.2);
+    cursor: zoom-in;
 }

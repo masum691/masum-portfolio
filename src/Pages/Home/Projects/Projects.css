@@ -146,3 +146,80 @@
 .project-container h4{
     color: #44566c;
 }
+.project-one-b-care{
+    height: 190px;
+    background-image: url('../../../images/project1.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-one-b-care:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+.project-two-world{
+    height: 190px;
+    background-image: url('../../../images/project2.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-two-world:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+.project-three{
+    height: 190px;
+    background-image: url('../../../images/project3.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-three:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+.project-four{
+    height: 190px;
+    background-image: url('../../../images/lang.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-four:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+.project-five{
+    height: 190px;
+    background-image: url('../../../images/gaming2.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-five:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+.project-five{
+    height: 190px;
+    background-image: url('../../../images/gaming2.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-five:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+.project-six{
+    height: 190px;
+    background-image: url('../../../images/fundu2.png');
+    background-position: top;
+    background-size: cover;
+    transition: all 5s linear;
+}
+.project-six:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
