@@ -54,7 +54,7 @@ const Projects = () => {
                                 <div className='mt-3 with-client-sercer'>
                                     <a className="client-code" href="https://github.com/masum691/travel-world-client" target="_blank" rel="noreferrer" >Client Code</a>
                                     <a className="server-code" href="https://github.com/masum691/travel-world-server" target="_blank" rel="noreferrer" >Server Code</a>
-                                    <a className='live-site' href="https://world-travel-inc.web.app/" target="_blank" rel="noreferrer" >Live Site</a>
+                                    <a className='live-site' href="https://world-travel-web.netlify.app" target="_blank" rel="noreferrer" >Live Site</a>
                                 </div>
                             </div>
                         </div>

@@ -17,7 +17,7 @@ const Banner = () => {
                             <button>WEB DEVELOPER</button>
                             <div className="font-awesome">
 
-                                <a href="https://github.com/masum691/" target="_blank" rel="noreferrer"><i class="fab fa-github github"></i></a>
+                                <a href="https://github.com/masumwbd" target="_blank" rel="noreferrer"><i class="fab fa-github github"></i></a>
                                 <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook facebook"></i></a>
                                 <a href="https://www.linkedin.com/in/md-masum-mia-579ab320a/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin linkedin"></i></a>
                             </div>
@@ -30,7 +30,7 @@ const Banner = () => {
                                 </div>
                                 <div>
                                     <i class="far fa-envelope"></i>
-                                    <small> masumhu691@gmail.com</small>
+                                    <small> masumwbd@gmail.com</small>
                                 </div>
                                 <div>
                                     <i class="fas fa-phone"></i>
@@ -38,7 +38,7 @@ const Banner = () => {
                                 </div>
                             </div>
                             <div>
-                                <button className="resume mt-4 ms-4"><a href="https://drive.google.com/file/d/16lPpu_jvLJmq3EFJBbqdy8QEB0AbFOkZ/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fas fa-download"></i> Download Resume</a></button>
+                                <button className="resume mt-4 ms-4"><a href="https://drive.google.com/file/d/1uKKr16TdmpM1FsrwNvfJz5NV2ToCJ2rA/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fas fa-download"></i> Download Resume</a></button>
                             </div>
                         </div>
                     </div>

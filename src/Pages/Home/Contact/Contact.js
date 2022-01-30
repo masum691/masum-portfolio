@@ -26,7 +26,7 @@ const Contact = () => {
                         <p> masumhu691@gmail.com</p>
                         <h5>Social Media</h5>
                         <div className="fonts">
-                            <a href="https://github.com/masum691/" target="_blank" rel="noreferrer"><i class="fab fa-github git"></i></a>
+                            <a href="https://github.com/masumwbd" target="_blank" rel="noreferrer"><i class="fab fa-github git"></i></a>
                             <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook fbook ms-2"></i></a>
                             <i class="fab fa-twitter twit"></i>
                             <a href="https://www.linkedin.com/in/md-masum-mia-579ab320a/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin linkd"></i></a>
