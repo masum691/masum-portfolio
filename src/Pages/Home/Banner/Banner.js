@@ -1,6 +1,7 @@
 import React from 'react';
-import programmer from '../../../images/programmer.png'
+import programmer from '../../../images/two.png'
 import './Banner.css'
+// import './Banner.scss'
 
 const Banner = () => {
 
@@ -10,7 +11,7 @@ const Banner = () => {
                 <div class="align-items-center portfolio-banner">
                     <div className='text-center'>
                         <div className='mb-4'>
-                            <div className="my-p-img">
+                            <div className="my-p-img p-image">
                                 <img className='programmer-banner-img' src={programmer} alt="" />
                             </div>
                             <h4 className='mt-3'>MD MASUM MIA</h4>

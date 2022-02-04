@@ -64,7 +64,7 @@
 }
 .programmer-banner-img{
     width: 160px;
-    border-radius: 13px;
+    border-radius: 50%;
     margin-top: 18px;
     box-shadow: 4px 4px 30px rgb(244, 245, 245);
 }
@@ -76,7 +76,7 @@
     font-weight: 600;
     font-size: 16px;
 }
-.my-p-img{
+/* .my-p-img{
     overflow: hidden;
 }
 .my-p-img img{
@@ -85,4 +85,4 @@
 .my-p-img:hover img{
     transform: scale(1.2);
     cursor: zoom-in;
-}
+} */
