@@ -32,14 +32,13 @@
     transition: .3s;
 }
 .font-awesome .facebook:hover, .github:hover, .linkedin:hover, .twitter:hover{
-    color:rgb(82, 80, 218);
+    color:#9110F5;
     cursor: pointer;
 }
 .resume{
     border: 2px solid #8C14FC;
     background-color: #445dfd00;
     color: #445EFD;
-    
     font-weight: 600;
     transition: 0.4s;
 }
@@ -49,12 +48,12 @@
 .resume a{
     text-decoration: none;
     color: #445EFD;
-    border: 2px solid #445EFD;
-    background-color: #445EFD;
-    padding: 8px 16px;
+    border: 2px solid #9110F5;
+    background-color: #9110F5;
+    padding: 6px 26px;
     color: #ffffff;
     font-size: 14px;
-    border-radius: 6px;
+    border-radius: 2px;
 }
 .with-nav{
     margin-top: 43px;

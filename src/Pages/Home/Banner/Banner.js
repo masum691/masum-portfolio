@@ -15,7 +15,7 @@ const Banner = () => {
                                 <img className='programmer-banner-img' src={programmer} alt="" />
                             </div>
                             <h4 className='mt-3'>MD MASUM MIA</h4>
-                            <button>WEB DEVELOPER</button>
+                            <button className='dev-btn'>WEB DEVELOPER</button>
                             <div className="font-awesome">
 
                                 <a href="https://github.com/masumwbd" target="_blank" rel="noreferrer"><i class="fab fa-github github"></i></a>
@@ -34,12 +34,12 @@ const Banner = () => {
                                     <small> masumwbd@gmail.com</small>
                                 </div>
                                 <div>
-                                    <i class="fas fa-phone"></i>
-                                    <small>+88-01996834815</small>
+                                    <i class="fs-6 fa-solid fa-link"></i>
+                                    <small className=''> www.masumwbd.netlify.app</small>
                                 </div>
                             </div>
                             <div>
-                                <button className="resume mt-4 ms-4"><a href="https://drive.google.com/file/d/1uKKr16TdmpM1FsrwNvfJz5NV2ToCJ2rA/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fas fa-download"></i> Download Resume</a></button>
+                                <button className="resume mt-4 ms-4"><a href="https://drive.google.com/file/d/1uKKr16TdmpM1FsrwNvfJz5NV2ToCJ2rA/view?usp=sharing" target="_blank" rel="noreferrer"><i class="me-1 fas fa-arrow-down"></i> RESUME</a></button>
                             </div>
                         </div>
                     </div>

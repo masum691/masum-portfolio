@@ -21,10 +21,8 @@ const Contact = () => {
                 <div className="d-lg-flex container mx-auto ">
                     <div className="pe-lg-5">
                         <h4>Quick Contact</h4>
-                        <p>Don't Like Form? call me - 01996834815 </p>
-                        <h5>Email</h5>
-                        <p> masumhu691@gmail.com</p>
-                        <h5>Social Media</h5>
+                        <p>Don't Like Form? mail me - masumwbd@gmail.com </p>
+                        <h5>Social Links</h5>
                         <div className="fonts">
                             <a href="https://github.com/masumwbd" target="_blank" rel="noreferrer"><i class="fab fa-github git"></i></a>
                             <a href="https://web.facebook.com/profile.php?id=100071095920767" target="_blank" rel="noreferrer"><i class="fab fa-facebook fbook ms-2"></i></a>

@@ -17,7 +17,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h5 className="">Responsive Website</h5>
-                                    <p className="">I create responsive Website for all devices. it's very importent for the convenience of the users. </p>
+                                    <p className="">Responsive web design adjusts content to a device's screen. I create responsive Website for all devices. it's very importent for the convenience of the users. </p>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h5 className="">Front End App</h5>
-                                    <p className="">I have professional knowledge in front-end dev. I use HTML, CSS, Bootstrap, JS, React etc. for front end</p>
+                                    <p className="">Web development generally fits into distinct concentrations, such as front end web development. I have professional knowledge of front-end development. </p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const Services = () => {
                                 </div>
                                 <div>
                                     <h5 className="">React App</h5>
-                                    <p className="">ReactJS is my favourit js library. I enjoy creating the user interface with React. I always use ReactJS for front end.</p>
+                                    <p className="">ReactJS has become highly popular because of its extra simplicity and flexibility. ReactJS is my favourit js library. I enjoy creating the user interface with React.</p>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Services = () => {
                                 </div>
                                 <div className='text-left'>
                                     <h5 className="">MERN App</h5>
-                                    <p className="">I can create simple MERN App.I can Fetch data from Database and CRUD Operation.</p>
+                                    <p className="">React is winning the development stack popularity race, which means MERN is at the leading position among popularity. This stack is one of my favorite.</p>
                                 </div>
                             </div>
                         </div>

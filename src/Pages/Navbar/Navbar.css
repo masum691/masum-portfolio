@@ -10,11 +10,11 @@
     /* font-style: italic; */
     font-size: 42px;
     font-weight: 700;
-    color: rgb(82, 80, 218);
+    color:#9110F5;
     transition: 0.5s;
 }
 .masum:hover{
-    color: #ED8C19;
+    color: rgb(82, 80, 218);
 }
 .navimage{
     width: 42px;
